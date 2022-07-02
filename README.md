@@ -4,6 +4,9 @@ reference:
 youtube link: https://www.youtube.com/watch?v=VsUzmlZfYNg
 github link: https://github.com/adrianhajdin/project_mern_memories
 
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/106371956/177010493-752fe776-ffae-4662-8248-bcda941c49e6.png">
+
+
 Notes For the project: 
 ### This is the part1 and part2 of this project. 
 
