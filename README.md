@@ -23,8 +23,14 @@ N: Node.js runtime environment, allows you to write code in js. node can be inst
 Heroku: deploy the web on Heroku
 
 ### How the re-use the app:
-1. Create your own ddb instance on https://www.mongodb.com/atlas/database
-2. replace the connect code in the index.js under server folder based on the DDB you created (refer to section)
+1. create a `client` and `sevrer` folder 
+2. create a react app in the client folder using `npx create-react-app ./` 
+3. create a package.json file in the server folder using `npm init -y`
+4. Copy the src folder of the client and server folder from https://github.com/adrianhajdin/project_mern_memories
+5. Create your own ddb instance on https://www.mongodb.com/atlas/database
+6. replace the connect code in the index.js under server folder based on the DDB you created (refer to section)
+7. Run `npm install` under client and server folder
+8. Run `npm start` under the server folder, and then run the `npm start` under the client folder. If the server and the client are under the same folder, then only need to run `npm start` once.  
 
 
 
